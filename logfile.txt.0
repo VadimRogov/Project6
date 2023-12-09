@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-09T14:10:53.077273Z</date>
+  <millis>1702131053077</millis>
+  <nanos>273000</nanos>
+  <sequence>0</sequence>
+  <logger>Boot</logger>
+  <level>INFO</level>
+  <class>Boot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.104795Z</date>
+  <millis>1702131053104</millis>
+  <nanos>795000</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.394680Z</date>
+  <millis>1702131053394</millis>
+  <nanos>680000</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel finished successfully</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.395810Z</date>
+  <millis>1702131053395</millis>
+  <nanos>810000</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.415124Z</date>
+  <millis>1702131053415</millis>
+  <nanos>124000</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.416899Z</date>
+  <millis>1702131053416</millis>
+  <nanos>899000</nanos>
+  <sequence>5</sequence>
+  <logger>org.apache.commons.lang3.StringUtils</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.420590Z</date>
+  <millis>1702131053420</millis>
+  <nanos>590000</nanos>
+  <sequence>6</sequence>
+  <logger>org.apache.commons.lang3.StringUtils</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.421085Z</date>
+  <millis>1702131053421</millis>
+  <nanos>85000</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.486913Z</date>
+  <millis>1702131053486</millis>
+  <nanos>913000</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-12-09T14:10:53.487252Z</date>
+  <millis>1702131053487</millis>
+  <nanos>252000</nanos>
+  <sequence>9</sequence>
+  <logger>Boot</logger>
+  <level>INFO</level>
+  <class>Boot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
